@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FacebookShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="fb_share">FbShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">204118733113935</string>
+
+</resources>
