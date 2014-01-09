@@ -14,9 +14,9 @@ public class FBWrapper {
 		if (FacebookDialog.canPresentShareDialog(mainActivity,
 				FacebookDialog.ShareDialogFeature.SHARE_DIALOG)) {
 			FacebookDialog shareDialog = new FacebookDialog.ShareDialogBuilder(
-					mainActivity).setName("Testing")
-					.setDescription("Tutorial using Share Dialog Facebook SDK.")
-					.setLink("https://developers.facebook.com/docs/android/share-dialog/").build();
+					mainActivity).setName("PhoenixStudio")
+					.setDescription("Code is Life")
+					.setLink("http://phoenix-studio.net/").build();
 			uiHelper.trackPendingDialogCall(shareDialog.present());
 		} else {
 			AlertDialog.Builder alert = new AlertDialog.Builder(mainActivity);
